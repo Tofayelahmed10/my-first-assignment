@@ -59,6 +59,10 @@
   
   
  }
+ main{
+  max-width: 1140px;
+  margin: 0 auto;
+ }
  
  .nav-title{
   font-weight:900;
@@ -80,7 +84,7 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
-  font-size:30px;
+  font-size:35px;
   text-align: center;
   justify-content: center;
   color: #252432;
@@ -99,12 +103,12 @@
 }
 .banner-title{
   font-weight: bold;
-  font-size: 14px;
+  font-size: 22px;
   font-family:"raleway" ;
 }
 .banner-description{
   font-family:"raleway" ;
-  font-size: 8px;
+  font-size: 11px;
   color: #5f5f67;
   padding: 10px 0px;
 
@@ -113,7 +117,41 @@
   margin-top: 8px;
 }
 .banner-image{
-  width: 150px;
+  width: 200px;
   height: 150px;
   border-radius: 20px;
+}
+.secondary-bg{
+  background-color: #d8d8e6;
+  margin: 100px 150px 100px 150px;
+  height: 250px;
+  border-radius: 15px;
+}
+.sec-title{
+  font-family:"raleway";
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.about-items{
+  display: flex;
+  padding-bottom: 40px;
+  
+  justify-content: space-around;
+
+}
+.item-title{
+  font-family:"Inter" ;
+  font-weight: bold;
+  font-size: 40px;
+  color: #0800f8;
+  margin-top: 30px;
+}
+.item-description{
+  font-family:"Inter" ;
+  font-size: 12px;
+  color: #909095;
+  padding-bottom: 50px;
 }
