@@ -4,6 +4,7 @@
   box-sizing: border-box;
  }
  
+ 
 
 
 .inter-logo {
@@ -84,4 +85,35 @@
   justify-content: center;
   color: #252432;
 
+}
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+.banner-content{
+  
+  margin: 5px 5px 5px;
+  
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 14px;
+  font-family:"raleway" ;
+}
+.banner-description{
+  font-family:"raleway" ;
+  font-size: 8px;
+  color: #5f5f67;
+  padding: 10px 0px;
+
+}
+.btn-margin{
+  margin-top: 8px;
+}
+.banner-image{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
 }
